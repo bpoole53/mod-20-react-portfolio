@@ -76,3 +76,12 @@ h1 {
 .contact-input {
   padding-bottom: 5rem;
 }
+
+.project-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
