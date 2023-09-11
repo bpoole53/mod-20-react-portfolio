@@ -1,12 +1,13 @@
-import { Header } from './components'
+import { Header, Footer } from './components'
 import { Home, About, Contact, Portfolio, Resume } from './pages'
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
-import './App.css';
+// import './App.css';
 
 function App() {
   return (
-    <div>
-      <Header />
+  <>
+    <Header />
+      <div className='inside-body'>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
@@ -16,8 +17,11 @@ function App() {
           <Route path='/resume' element={<Resume />} />
         </Routes>
       </BrowserRouter>
+      </div>
+    <Footer />  
+      
 
-    </div>
+  </>
   );
 }
 
