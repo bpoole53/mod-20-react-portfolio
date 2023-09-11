@@ -5,10 +5,10 @@ import './App.css'
 
 function App() {
   return (
-  <>
+  
+  <BrowserRouter>
     <Header />
       <div className='inside-body'>
-      <BrowserRouter>
         <Routes>
           <Route path='/' element={<About />} />
           <Route path='/about' element={<About />} />
@@ -16,12 +16,10 @@ function App() {
           <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/resume' element={<Resume />} />
         </Routes>
-      </BrowserRouter>
       </div>
     <Footer />  
-      
+  </BrowserRouter>    
 
-  </>
   );
 }
 
