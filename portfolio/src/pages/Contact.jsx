@@ -4,7 +4,7 @@ export default function Contact(){
 
 	return(
 	<>    
-        <div class="about-page">
+        <div class="center-items">
             <h1 className="text-5xl font-bold">Contact Me</h1>  
             <input class="contact-input" type="text" placeholder="Name" className="input input-bordered w-full max-w-md text-white" />
             <input class="contact-input" type="text" placeholder="Email Address" className="input input-bordered w-full max-w-md text-white" />

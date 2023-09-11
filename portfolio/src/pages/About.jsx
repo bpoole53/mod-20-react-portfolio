@@ -4,7 +4,7 @@ export default function About(){
 
 	return(
 	<>
-        <div class="about-page">  
+        <div class="center-items">  
             <img src="https://i.ibb.co/2jSJsjg/Bootcamp-Profile-Pic.png" alt='' className="h-48 w-48 rounded-lg shadow-2xl" />
             <h1 className="text-5xl font-bold">About Me</h1>
             <p class='about-p-text'>
